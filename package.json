@@ -1,6 +1,6 @@
 {
   "name": "reg-visualization",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "正则可视化工具",
   "type": "module",
   "main": "dist/index.cjs",
@@ -17,7 +17,18 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "RegExp",
+    "Regulex",
+    "visualization"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jerry009zz/reg-visualization.git"
+  },
   "author": "jerryYan",
   "license": "MIT",
   "devDependencies": {
